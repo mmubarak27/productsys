@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product system</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/f99847fd73.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="top-bar">
+      <p>
+        <i class="fa-solid fa-envelope" style="color: #ff3300"></i
+        >mmubarak27@gmail.com
+      </p>
+      <p>
+        <i class="fa-solid fa-square-phone" style="color: #ff4000"></i>+91- 95
+        666 97609
+      </p>
+    </div>
+    <div class="header">
+      <div class="navbar">
+        <p>Product Systems</p>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">store</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </div>
+      <div class="navbar-b">
+        <div class="dropdown">
+          <select name="">
+            <option value="1">Categories</option>
+            <option value="2">Mobiles</option>
+            <option value="3">Laptops</option>
+            <option value="4">Tablets</option>
+            <option value="5">Desktops</option>
+            <option value="6">Mobiles cases</option>
+            <option value="7">Temperglass</option>
+          </select>
+        </div>
+        <div class="search">
+          <input type="search" placeholder="search here" />
+          <i class="fa-solid fa-magnifying-glass" style="color: #ff1900"></i>
+        </div>
+        <div class="cart">
+          <i class="fa-solid fa-cart-plus" style="color: #ff0000"></i>
+          <p>0</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div id="root">
+        <div class="sidebar">sidebar</div>
+      </div>
+    </div>
+    <div id="cart-items"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>
